@@ -1,0 +1,5 @@
+#Diagonal
+
+class Diagonal
+
+end
