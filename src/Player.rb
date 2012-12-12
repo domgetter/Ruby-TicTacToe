@@ -10,15 +10,10 @@ class Player
   end
   
   def go (game, index)
+  
     @turn = true
-    #choose a cell
-      #make sure cell is empty
-    #mark the cell
-      #mark with corresponding mark
+    
     if(@type=="AI")
-    #  grid = [[c,c,c],
-    #          [c,c,c],
-    #          [c,c,c]]
       while(@turn)
         randomRow = rand(0..(game.gameSize-1))
         randomColumn = rand(0..(game.gameSize-1))
@@ -30,6 +25,7 @@ class Player
     else
     
     end
+    
   end
 
 end
